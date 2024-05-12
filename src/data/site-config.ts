@@ -38,80 +38,76 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Luis LoHer',
+    subtitle: 'Página Personal',
+    description: 'Página Personal del Desarrollador Web Luis LoHer.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/dante-preview.jpg', //Modificar
+        alt: 'Luis LoHer'
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Inicio',
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Proyectos',
+            href: '/projects' 
         },
         {
             text: 'Blog',
             href: '/blog'
         },
         {
-            text: 'Tags',
+            text: 'Etiquetas',
             href: '/tags'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
+            text: 'Sobre Mí',
             href: '/about'
         },
         {
-            text: 'Contact',
+            text: 'Contáctame',
             href: '/contact'
         },
         {
-            text: 'Terms',
+            text: 'Términos',
             href: '/terms'
         },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'GitHub',
+            href: 'https://github.com/luisDur8'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://www.instagram.com/luisloher9/'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Linkedin',
+            href: 'https://www.linkedin.com/in/luis-lopez-web-developer/'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: '¡Hola! Bienvenidxs a mi Espacio',
+        text: "Soy Luis LoHer, un Matemático y Programador apasionado, actualmente me dedico al Desarrollo Web. Mi enfoque implica abrazar la intuición, realizar la investigación suficiente y aprovechar la estética como catalizador para productos excepcionales. Aprecio profundamente el software de primer nivel, el diseño visual y los principios del crecimiento impulsado por productos. Siéntete libre de explorar algunos de mis esfuerzos de codificación en la pestaña de Trabajos.",
         image: {
             src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Luis Loher foto'
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Ponte en contacto',
                 href: '/contact'
             }
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Suscríbete al boletín de Luis LoHer',
+        text: 'Una actualización por semana. Todas las últimas publicaciones directamente en tu bandeja de entrada 😉',
         formUrl: '#'
     },
     postsPerPage: 8,

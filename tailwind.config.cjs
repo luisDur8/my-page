@@ -5,8 +5,8 @@ module.exports = {
     darkMode: 'class',
     theme: {
         fontFamily: {
-            sans: ['Inter', ...defaultTheme.fontFamily.sans],
-            serif: ['Newsreader', ...defaultTheme.fontFamily.serif]
+            sans: ['Reddit Sans', ...defaultTheme.fontFamily.sans],
+            serif: ['Reddit Sans', ...defaultTheme.fontFamily.serif]
         },
         extend: {
             textColor: {
@@ -54,13 +54,13 @@ module.exports = {
                         },
                         'h1,h2,h3,h4,h5,h6': {
                             fontFamily: theme('fontFamily.serif'),
-                            fontWeight: 500
+                            fontWeight: 400
                         },
                         blockquote: {
                             border: 0,
                             fontFamily: theme('fontFamily.serif'),
                             fontSize: '1.3125em',
-                            fontStyle: 'italic',
+                            fontStyle: 'normal',
                             fontWeight: 'normal',
                             lineHeight: 1.4,
                             paddingLeft: 0,
@@ -81,5 +81,5 @@ module.exports = {
             })
         }
     },
-    plugins: [require('@tailwindcss/typography')]
+    plugins: [require('@tailwindcss/typography')]    
 };
